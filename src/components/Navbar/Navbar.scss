@@ -1,0 +1,45 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.navbar {
+    position: relative;
+    height: 100%;
+    padding-left: 10px;
+    background-color: #000 !important;
+    box-sizing: inherit;
+    margin-bottom: 20px;
+    .brand-logo {
+
+        margin-top: 15px;
+        position:absolute;
+        color:#fff;
+        display:inline-block;
+        font-size: 1.5rem;
+        padding:0
+    }
+}
+
+.nav-wrapper{
+    min-height:64px
+}
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.right {
+    text-decoration: none;
+    float: right !important;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
